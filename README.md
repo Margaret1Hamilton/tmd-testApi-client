@@ -6,7 +6,7 @@
 
 ## 安装依赖
 ```shell
-pip install -r requeirments.txt
+pip3 install -r requeirments.txt
 ```
 
 ## 环境变量BASE_HOST
@@ -21,7 +21,7 @@ pytest -s --env=pro
 ```
 
 ## 注解说明
-1. 指定运行所有说明
+1. 指定运行环境所有说明
 ```py
 @pytest.mark.runALL
 ```
@@ -30,8 +30,10 @@ pytest -s --env=pro
 http://192.168.0.14:7070
 
 ## 测试报告
-```py
-pytest -s  --alluredir=./allure-report 生成报告
+```shell
+pytest -s  --alluredir=./allure-report
+```
+```
 allure serve  ./allure-report
 ```
 
