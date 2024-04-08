@@ -13,7 +13,10 @@ dataCases = {
             "expected": {
                 "header": {
                     "code": "1200",
-                            "messageDetails": {"account": "Account incorrect"}
+                    "messageDetails": {"account": "Account incorrect"}
+                },
+                "body": {
+                    "name": '张三'
                 }
             }
         },

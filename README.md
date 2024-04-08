@@ -44,7 +44,7 @@ type casesItem = {
   title: string,
   /** 是否在生产环境运行 */
   runPro?: "true" | "false",
-  /** 路径参数 activity/changeActivity/{id} 传入{id: 1}输出activity/changeActivity/{1}*/
+  /** 路径参数 activity/changeActivity/{id} 传入{id: 1}输出activity/changeActivity/1*/
   pathParams?: Dictionary,
   /** 接口参数 */
   data?: Dictionary,
