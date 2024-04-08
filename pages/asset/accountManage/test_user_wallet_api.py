@@ -17,4 +17,3 @@ class Test_user_wallet_api:
         print('2222', account_value)
         assert ['adasdfasfd'] == ['adasdfasfd']
 
-

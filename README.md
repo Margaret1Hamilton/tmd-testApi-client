@@ -11,8 +11,12 @@ pip3 install -r requeirments.txt
 
 ## 环境变量BASE_HOST
 ```shell
-## 指定运行的apiHost默认: http://192.168.0.129:31000
-export BASE_HOST=''
+## 指定运行的apiHost 为测试环境: http://192.168.0.129:31000
+export BASE_HOST='http://192.168.0.129:31000'
+```
+```shell
+## 指定运行的apiHost 为预发环境: http://192.168.0.129:31000
+export BASE_HOST='http://192.168.0.14:31000'
 ```
 ## 运行
 ```shell
