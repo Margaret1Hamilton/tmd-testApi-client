@@ -5,9 +5,7 @@ from utils.login import login
 
 @pytest.fixture(scope="module")
 def rest_client():
-    rest_client_func = login(account='jason.chen@spotec.net', password='abc123').get('rest_client_func')
-
-    return rest_client_func
+    yield login(account='jason.chen@spotec.net', password='abc123').get('rest_client_func')
 
 
 def test_string_only(rest_client):
